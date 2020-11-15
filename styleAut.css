@@ -1,0 +1,51 @@
+/* Asmaa El Abdi, Mathieu Morier */
+
+/* Style barre de navigation */
+nav {
+    background-image:linear-gradient(to right, red , #012D8A);
+    overflow: hidden;
+    font-family: Arial;
+}
+
+nav a {
+   float:left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+}
+
+nav a:hover {
+     background-color: #f2f2f2 ;
+     color: black;
+}
+/* style du titre */
+
+#titre {
+    font-size: 220%;
+    text-align: left;
+    margin-left: 5%; 
+    font-family:Arial; 
+}
+
+ /* Style de l'image */
+
+#expo1 {
+    float: right;
+    margin-right: 5%;
+    margin-top: 12%;
+}
+
+
+div.contact {
+    width:60%;
+    margin-left: 5%;
+    border: 5px solid rgb(10, 80, 185);
+    font-family:Arial;
+}
+
+td {
+    width: 55%;
+    background-color: #d6eaf8;
+}

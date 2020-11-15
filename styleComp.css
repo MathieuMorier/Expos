@@ -1,0 +1,75 @@
+/*Asmaa El Abdi, Mathieu Morier */
+
+body {
+    background-image: url("baseball2.jpg");
+    background-position-y: 100%; 
+    background-size: 70% 70%; 
+    background-repeat: no-repeat;
+    font-family: Arial;
+}
+/* Style barre de navigation */
+
+nav {
+    background-image:linear-gradient(to right, red , #012D8A);
+    overflow: hidden;
+}
+
+nav a {
+   float:left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+}
+
+nav a:hover {
+     background-color: #f2f2f2 ;
+     color: black;
+}
+
+/* position des images  */
+
+div.images {
+    float: right;
+    margin-right: 5%;
+    margin-top: 14%;
+}
+
+/* Style du titre */
+
+#titre {
+    font-size: 220%;
+    text-align: center;
+    margin-left: 15%;  
+}
+
+/* style des tableaux */
+
+caption { 
+    background-color: #AED6F1;
+    border-left:3px solid #154360;
+    border-right:3px solid #154360;
+    border-top:3px solid #154360;
+    
+}
+table {
+    width: 40%;
+    margin-left: 30%;
+} 
+th {
+    height: 50%;
+}
+table, td, tr {
+    border-collapse: collapse;
+    border: 3px solid #154360;
+    text-align: center;
+    
+}
+
+tr:nth-child(even) {
+    background-color: #AED6F1;
+}
+tr:nth-child(odd) {
+    background-color: #EBF5FB;
+}

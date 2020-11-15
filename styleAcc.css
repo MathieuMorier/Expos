@@ -1,0 +1,89 @@
+/*Asmaa El Abdi, Mathieu Morier */
+
+
+body {
+    background-color: #fffce9;
+    font-family: Arial;
+}
+/* Style barre de navigation */
+nav {
+    background-image: linear-gradient(to right, red , #012D8A);
+    overflow: hidden;
+}
+
+nav a {
+   float:left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+}
+
+nav a:hover {
+     background-color: #f2f2f2 ;
+     color: black;
+}
+/* Style du titre */
+#titre {
+    font-size: 260%;
+    text-align: center;
+    margin-right: 2%; 
+}
+
+/* Style de l'image 1 */
+#image1 {
+    float: right;
+    margin-right: 3%;
+    margin-top: 0%;
+} 
+/* Style de l'image 2 */
+#image2 {
+    float: left;
+    margin-left: 3%;
+    margin-top: 10%;
+}
+/* Style de l'image 3 */
+#image3 {
+    margin-left: 13%;
+    margin-top: 10%;
+}
+
+/* Style des paragraphes */
+.paragraphe {
+    width:50%;
+    padding-right: 10%;
+    line-height: 1.6;
+    margin-left: 3%;
+    border: 5px solid rgb(10, 80, 185);
+    background-color: #e6f5fb;
+    
+}
+p.parag {
+    margin-left: 3%;
+    font-size: 14px;
+}
+h2.sousTitre{
+    margin-left: 3%;
+     
+}
+
+.paragraphe2 {
+    float: right;
+    margin-top: 10%;
+    width:50%;
+    padding-right: 10%;
+    font-family: Arial;
+    line-height: 1.6;
+    margin-right: 3%;
+    border: 5px solid rgb(10, 80, 185);
+    background-color: #e6f5fb;
+}
+p.parag2 {
+    margin-left: 3%;
+    font-size: 14px;
+}
+
+h2.sousTitre2 {
+    margin-left: 3%;
+}
